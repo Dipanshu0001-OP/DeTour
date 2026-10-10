@@ -1,0 +1,15 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "detour-dev"
+resolve_s3 = true
+s3_prefix = "detour-dev"
+region = "ap-south-1"
+profile = "detour-deployer"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "Stage=\"dev\" AllowedOrigin=\"*\""
+image_repositories = []
+
+[default.global.parameters]
+region = "ap-south-1"

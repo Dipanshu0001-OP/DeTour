@@ -1,0 +1,14 @@
+{
+  "name": "detour-infra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test lambda/*.test.mjs",
+    "seed": "node scripts/seed.mjs",
+    "export:places": "node scripts/export-places.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "@aws-sdk/lib-dynamodb": "^3.600.0"
+  }
+}

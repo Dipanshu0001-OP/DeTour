@@ -1,0 +1,30 @@
+
+{
+  "name": "detour-ai",
+  "version": "1.0.0",
+  "description": "AI-powered semantic recommendation and itinerary engine for DeTour",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "eval": "node src/tests/evaluate.js",
+    "eval:mock": "node src/tests/evaluate.js --mock",
+    "test:integration": "node src/tests/integration-smoke.js"
+  },
+  "keywords": [
+    "detour",
+    "tourism",
+    "recommendation-engine",
+    "semantic-search",
+    "open-weight-ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.1"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}

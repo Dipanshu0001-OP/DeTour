@@ -1,0 +1,1172 @@
+[
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hidden-gem",
+      "outdoor",
+      "free"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-nature-001",
+    "name": "Robber's Cave (Guchhupani)",
+    "category": "attraction",
+    "description": "A natural limestone cave with a stream running through it. Walk barefoot in the cool water — a classic Dehradun hidden-gem experience.",
+    "pricePerPerson": 0,
+    "durationMinutes": 90,
+    "interests": [
+      "nature",
+      "adventure",
+      "photography",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "outdoor",
+      "waterfall"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-nature-002",
+    "name": "Sahastradhara Waterfall Trail",
+    "category": "attraction",
+    "description": "Sulphur springs and cascading waterfalls just outside the city. Quieter trails exist beyond the main tourist point.",
+    "pricePerPerson": 50,
+    "durationMinutes": 120,
+    "interests": [
+      "nature",
+      "adventure",
+      "photography"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hidden-gem",
+      "outdoor",
+      "picnic"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-nature-003",
+    "name": "Lacchiwala Forest Picnic Spot",
+    "category": "attraction",
+    "description": "A peaceful forest retreat with man-made pools and dense sal trees. Ideal for a slow afternoon away from the city.",
+    "pricePerPerson": 30,
+    "durationMinutes": 150,
+    "interests": [
+      "nature",
+      "photography",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hidden-gem",
+      "spiritual",
+      "free"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-nature-004",
+    "name": "Tapkeshwar Temple & Cave",
+    "category": "attraction",
+    "description": "An ancient Shiva cave temple where water naturally drips onto the lingam. Quiet and atmospheric, especially early morning.",
+    "pricePerPerson": 0,
+    "durationMinutes": 60,
+    "interests": [
+      "culture",
+      "spiritual",
+      "history",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "local-food"
+    ],
+    "dietaryTags": [
+      "vegetarian"
+    ],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-food-001",
+    "name": "Garhwali Thali at a Local Kitchen",
+    "category": "food",
+    "description": "Home-style Garhwali meal — mandua roti, kafuli, aloo ke gutke and bhang ki chutney. Simple, seasonal and deeply local.",
+    "pricePerPerson": 250,
+    "durationMinutes": 60,
+    "interests": [
+      "food",
+      "culture"
+    ],
+    "community": {
+      "isCommunityRun": true,
+      "providerName": "Demo Garhwali Kitchen",
+      "providerType": "food-maker",
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "street-food",
+      "evening"
+    ],
+    "dietaryTags": [
+      "vegetarian",
+      "non-vegetarian"
+    ],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-food-002",
+    "name": "Ballupur Road Street Food Walk",
+    "category": "food",
+    "description": "Evening stroll sampling aloo puri, momos, chole bhature and local sweets along one of Dehradun's liveliest food streets.",
+    "pricePerPerson": 200,
+    "durationMinutes": 90,
+    "interests": [
+      "food",
+      "culture"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "cafe",
+      "urban"
+    ],
+    "dietaryTags": [
+      "vegetarian"
+    ],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-food-003",
+    "name": "Café Culture in Paltan Bazaar",
+    "category": "food",
+    "description": "Independent cafés tucked into the old market lanes — filter coffee, bakery items and quiet corners for people-watching.",
+    "pricePerPerson": 180,
+    "durationMinutes": 75,
+    "interests": [
+      "food",
+      "photography"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "farm",
+      "organic"
+    ],
+    "dietaryTags": [
+      "vegetarian"
+    ],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-food-004",
+    "name": "Organic Farm Lunch near Doon Valley",
+    "category": "food",
+    "description": "A farm-to-table lunch on a small organic holding. Seasonal vegetables, fresh dairy and a chance to walk the fields.",
+    "pricePerPerson": 450,
+    "durationMinutes": 120,
+    "interests": [
+      "food",
+      "nature",
+      "community"
+    ],
+    "community": {
+      "isCommunityRun": true,
+      "providerName": "Demo Valley Farm",
+      "providerType": "community",
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hands-on",
+      "artisan"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-craft-001",
+    "name": "Wool Weaving Demonstration",
+    "category": "craft",
+    "description": "Watch local weavers work with Garhwali wool and learn about traditional patterns used in shawls and rugs.",
+    "pricePerPerson": 150,
+    "durationMinutes": 60,
+    "interests": [
+      "crafts",
+      "culture",
+      "community"
+    ],
+    "community": {
+      "isCommunityRun": true,
+      "providerName": "Demo Weavers Collective",
+      "providerType": "artisan",
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hands-on",
+      "hidden-gem",
+      "artisan"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-craft-002",
+    "name": "Aipan Art Workshop",
+    "category": "craft",
+    "description": "Hands-on session in Aipan — the traditional red-and-white ritual art of Uttarakhand, drawn on floors and walls for festivals.",
+    "pricePerPerson": 300,
+    "durationMinutes": 90,
+    "interests": [
+      "crafts",
+      "culture",
+      "community"
+    ],
+    "community": {
+      "isCommunityRun": true,
+      "providerName": "Demo Aipan Studio",
+      "providerType": "artisan",
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "artisan",
+      "hidden-gem"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-craft-003",
+    "name": "Ringal Bamboo Craft Visit",
+    "category": "craft",
+    "description": "Visit a small workshop where artisans transform ringal bamboo into baskets, mats and utility objects — a living Himalayan craft.",
+    "pricePerPerson": 100,
+    "durationMinutes": 45,
+    "interests": [
+      "crafts",
+      "culture",
+      "community"
+    ],
+    "community": {
+      "isCommunityRun": true,
+      "providerName": "Demo Ringal Craft Group",
+      "providerType": "artisan",
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "heritage",
+      "architecture"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-culture-001",
+    "name": "Forest Research Institute Campus Walk",
+    "category": "attraction",
+    "description": "Colonial-era architecture, museums and vast lawns. One of the most beautiful institutional campuses in North India.",
+    "pricePerPerson": 40,
+    "durationMinutes": 120,
+    "interests": [
+      "culture",
+      "history",
+      "photography",
+      "nature"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "urban",
+      "free",
+      "heritage"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-culture-002",
+    "name": "Clock Tower & Paltan Bazaar Heritage Walk",
+    "category": "attraction",
+    "description": "A guided or self-paced walk through the old commercial heart of Dehradun — temples, markets and colonial remnants.",
+    "pricePerPerson": 0,
+    "durationMinutes": 90,
+    "interests": [
+      "culture",
+      "history",
+      "photography"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "spiritual",
+      "free",
+      "architecture"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-culture-003",
+    "name": "Buddha Temple (Mindrolling Monastery)",
+    "category": "attraction",
+    "description": "One of the largest Buddhist centres in India. Stunning stupa, gardens and a sense of calm just outside the city centre.",
+    "pricePerPerson": 0,
+    "durationMinutes": 90,
+    "interests": [
+      "spiritual",
+      "culture",
+      "photography"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "trek",
+      "outdoor",
+      "free"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Mussoorie",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-adv-001",
+    "name": "George Everest Peak Trek (Mussoorie)",
+    "category": "adventure",
+    "description": "A moderate trek to the historic park estate of Sir George Everest. Panoramic Doon Valley views on clear days.",
+    "pricePerPerson": 0,
+    "durationMinutes": 180,
+    "interests": [
+      "adventure",
+      "nature",
+      "photography"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "group"
+    ],
+    "tags": [
+      "rafting",
+      "outdoor",
+      "day-trip"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Rishikesh",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-adv-002",
+    "name": "River Rafting Day Trip (Rishikesh)",
+    "category": "adventure",
+    "description": "Half-day white-water rafting on the Ganga. Multiple grades available; suitable for beginners with guides.",
+    "pricePerPerson": 800,
+    "durationMinutes": 240,
+    "interests": [
+      "adventure",
+      "nature"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "homestay",
+      "immersive"
+    ],
+    "dietaryTags": [
+      "vegetarian"
+    ],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-comm-001",
+    "name": "Village Homestay Experience",
+    "category": "community",
+    "description": "Spend time in a nearby village home — help with simple cooking, learn about local farming and hear mountain stories.",
+    "pricePerPerson": 600,
+    "durationMinutes": 300,
+    "interests": [
+      "community",
+      "culture",
+      "food",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": true,
+      "providerName": "Demo Village Collective",
+      "providerType": "community",
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hidden-gem",
+      "educational",
+      "free"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-comm-002",
+    "name": "Community Seed Library Visit",
+    "category": "community",
+    "description": "A small initiative preserving indigenous seed varieties of the Doon valley. Learn about agro-biodiversity and local food systems.",
+    "pricePerPerson": 0,
+    "durationMinutes": 60,
+    "interests": [
+      "community",
+      "nature",
+      "culture"
+    ],
+    "community": {
+      "isCommunityRun": true,
+      "providerName": "Demo Seed Keepers",
+      "providerType": "ngo",
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "artisan",
+      "social-enterprise"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-comm-003",
+    "name": "Women's Self-Help Group Craft Sale",
+    "category": "community",
+    "description": "Meet members of a local women's SHG selling handmade woollens, pickles and natural products. Direct support to makers.",
+    "pricePerPerson": 100,
+    "durationMinutes": 45,
+    "interests": [
+      "community",
+      "crafts",
+      "shopping"
+    ],
+    "community": {
+      "isCommunityRun": true,
+      "providerName": "Demo Mahila Mandal",
+      "providerType": "community",
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hidden-gem",
+      "trek",
+      "free"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-gem-001",
+    "name": "Santala Devi Temple Trek",
+    "category": "attraction",
+    "description": "A short forest trek to a serene hilltop temple. Far fewer visitors than the popular spots — birdsong and open views.",
+    "pricePerPerson": 0,
+    "durationMinutes": 150,
+    "interests": [
+      "nature",
+      "spiritual",
+      "hidden-gems",
+      "adventure"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hidden-gem",
+      "heritage",
+      "free"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-gem-002",
+    "name": "Khalanga War Memorial",
+    "category": "attraction",
+    "description": "A quiet memorial to the Gorkha warriors who fought the British in 1814. Atmospheric and rarely crowded.",
+    "pricePerPerson": 0,
+    "durationMinutes": 45,
+    "interests": [
+      "history",
+      "culture",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hidden-gem",
+      "sunset",
+      "free"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-gem-003",
+    "name": "Sunset at Malsi Deer Park Edge",
+    "category": "attraction",
+    "description": "Skip the main park crowds and find a quiet ridge viewpoint nearby for golden-hour light over the valley.",
+    "pricePerPerson": 0,
+    "durationMinutes": 60,
+    "interests": [
+      "nature",
+      "photography",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "hidden-gem",
+      "indoor",
+      "free"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-gem-004",
+    "name": "Local Bookstore & Reading Corner",
+    "category": "attraction",
+    "description": "An independent bookstore with a strong section on Himalayan writing, maps and local authors. Slow travel at its best.",
+    "pricePerPerson": 0,
+    "durationMinutes": 45,
+    "interests": [
+      "culture",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "heritage",
+      "quiet"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-heritage-005",
+    "name": "Mindrolling Monastery Visit",
+    "category": "attraction",
+    "description": "A self-guided visit focused on Tibetan Buddhist architecture, peaceful courtyards and cultural context. Check visitor access and timings locally before travelling.",
+    "pricePerPerson": null,
+    "durationMinutes": 75,
+    "interests": [
+      "culture",
+      "spiritual",
+      "photography",
+      "history"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "outdoor",
+      "nature-walk",
+      "hidden-gem"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Dehradun",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "ddn-nature-006",
+    "name": "Doon Valley Birdwatching Walk",
+    "category": "adventure",
+    "description": "A self-guided early-morning nature walk around publicly accessible green spaces, with time to notice local birdlife. Route, access and conditions should be checked locally.",
+    "pricePerPerson": null,
+    "durationMinutes": 90,
+    "interests": [
+      "nature",
+      "photography",
+      "adventure",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "heritage",
+      "walking"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Mussoorie",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "mus-heritage-001",
+    "name": "Landour Bazaar Heritage Walk",
+    "category": "attraction",
+    "description": "Explore the old bazaar lanes at a relaxed pace and take in the hill-town architecture, bookshops and cafés. This is a self-guided outing, not a booked tour.",
+    "pricePerPerson": null,
+    "durationMinutes": 90,
+    "interests": [
+      "culture",
+      "history",
+      "photography",
+      "food"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "outdoor",
+      "viewpoint"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Mussoorie",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "mus-nature-001",
+    "name": "George Everest Viewpoint Outing",
+    "category": "attraction",
+    "description": "A scenic outing near the George Everest area for Himalayan views and open-air photography. Check current road, entry and trail conditions locally.",
+    "pricePerPerson": null,
+    "durationMinutes": 120,
+    "interests": [
+      "nature",
+      "adventure",
+      "photography",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "riverside",
+      "culture"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Rishikesh",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "rishikesh-culture-001",
+    "name": "Triveni Ghat Riverside Visit",
+    "category": "attraction",
+    "description": "Spend time by the Ganga at a well-known riverside ghat and observe the local atmosphere respectfully. Confirm any ceremony schedule and visitor guidance locally.",
+    "pricePerPerson": null,
+    "durationMinutes": 60,
+    "interests": [
+      "culture",
+      "spiritual",
+      "photography",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "walking",
+      "scenic"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Nainital",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "nai-nature-001",
+    "name": "Naini Lakefront Walk",
+    "category": "attraction",
+    "description": "A self-guided stroll around the publicly accessible lakefront areas for hillside views and a relaxed first look at Nainital. Check local access rules and conditions before setting out.",
+    "pricePerPerson": null,
+    "durationMinutes": 75,
+    "interests": [
+      "nature",
+      "photography",
+      "culture"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  },
+  {
+    "groupTypes": [
+      "solo",
+      "couple",
+      "friends",
+      "family"
+    ],
+    "tags": [
+      "viewpoint",
+      "outdoor"
+    ],
+    "dietaryTags": [],
+    "trendScore": 0,
+    "trendLabel": "Local experience",
+    "trendDate": null,
+    "locationUrl": null,
+    "city": "Nainital",
+    "dataSource": "demo",
+    "priceIsEstimate": true,
+    "id": "nai-nature-002",
+    "name": "Tiffin Top Viewpoint Outing",
+    "category": "adventure",
+    "description": "A scenic viewpoint outing with views over the lake and surrounding hills. Trail access, transport options, weather and any local charges should be confirmed on the day.",
+    "pricePerPerson": null,
+    "durationMinutes": 150,
+    "interests": [
+      "nature",
+      "adventure",
+      "photography",
+      "hidden-gems"
+    ],
+    "community": {
+      "isCommunityRun": false,
+      "providerName": null,
+      "providerType": null,
+      "verified": false,
+      "contactUrl": null
+    }
+  }
+]

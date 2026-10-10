@@ -1,0 +1,11 @@
+{
+  "destination": "Dehradun",
+  "budgetPerPerson": 1500,
+  "groupType": "solo",
+  "groupSize": 1,
+  "diet": "vegetarian",
+  "interests": ["nature", "culture", "hidden-gems"],
+  "durationDays": 1,
+  "hiddenGemsOnly": false,
+  "query": "quiet local nature and culture experiences away from crowds"
+}

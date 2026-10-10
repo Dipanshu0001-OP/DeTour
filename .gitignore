@@ -1,0 +1,16 @@
+# Dependencies and builds
+**/node_modules/
+**/dist/
+**/.aws-sam/
+**/.vite/
+
+# Local settings/secrets
+.env
+.env.*
+!.env.example
+frontend/.env.local
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

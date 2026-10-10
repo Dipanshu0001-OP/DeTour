@@ -1,0 +1,127 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: DeTour - serverless recommendation API for community-first Uttarakhand travel
+
+Parameters:
+  Stage:
+    Type: String
+    Default: dev
+    AllowedPattern: '^[a-zA-Z0-9-]+$'
+    Description: Deployment stage suffix used in resource names.
+  AllowedOrigin:
+    Type: String
+    Default: '*'
+    Description: Frontend origin allowed by CORS. Replace * with the deployed frontend origin before public launch.
+
+Globals:
+  Function:
+    Runtime: nodejs24.x
+    Timeout: 15
+    MemorySize: 256
+    Architectures:
+      - arm64
+    Environment:
+      Variables:
+        TABLE_NAME: !Ref PlacesTable
+        ALLOWED_ORIGIN: !Ref AllowedOrigin
+        APP_NAME: DeTour
+
+Resources:
+  PlacesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub 'detour-places-${Stage}'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: city
+          AttributeType: S
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: city
+          KeyType: HASH
+        - AttributeName: id
+          KeyType: RANGE
+      SSESpecification:
+        SSEEnabled: true
+      Tags:
+        - Key: App
+          Value: DeTour
+        - Key: Stage
+          Value: !Ref Stage
+
+  DeTourHttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: '$default'
+      CorsConfiguration:
+        AllowOrigins:
+          - !Ref AllowedOrigin
+        AllowMethods:
+          - GET
+          - POST
+          - OPTIONS
+        AllowHeaders:
+          - content-type
+          - authorization
+        MaxAge: 600
+
+  DeTourApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub 'detour-api-${Stage}'
+      CodeUri: lambda/
+      Handler: index.handler
+      Policies:
+        - DynamoDBReadPolicy:
+            TableName: !Ref PlacesTable
+      Events:
+        Health:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref DeTourHttpApi
+            Path: /health
+            Method: GET
+        Places:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref DeTourHttpApi
+            Path: /places
+            Method: GET
+        Recommend:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref DeTourHttpApi
+            Path: /recommend
+            Method: POST
+        Recommendations:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref DeTourHttpApi
+            Path: /recommendations
+            Method: POST
+
+  DeTourApiLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/detour-api-${Stage}'
+      RetentionInDays: 7
+      Tags:
+        - Key: App
+          Value: DeTour
+        - Key: Stage
+          Value: !Ref Stage
+
+Outputs:
+  ApiBaseUrl:
+    Description: Base URL for the DeTour HTTP API; append /health, /places?city=Dehradun, or /recommendations.
+    Value: !Sub 'https://${DeTourHttpApi}.execute-api.${AWS::Region}.amazonaws.com'
+  TableName:
+    Description: DynamoDB table for curated place listings.
+    Value: !Ref PlacesTable
+  LambdaFunctionName:
+    Description: DeTour API Lambda function.
+    Value: !Ref DeTourApiFunction
+  LogGroupName:
+    Description: CloudWatch log group with seven-day retention.
+    Value: !Ref DeTourApiLogGroup
