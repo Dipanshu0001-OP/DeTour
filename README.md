@@ -48,7 +48,77 @@ The project is exploring open-weight semantic matching and an AWS-backed API/dat
 
 Ollama is available on the project lead's development machine as a possible local experimentation option. It is not a runtime requirement for the frontend, and a public deployment must not depend on a personal computer remaining online.
 
-## Run the frontend locally
+## Run - https://detour-theta.vercel.app/
+## ☁️ AWS Cloud Architecture
+
+Detour is designed to combine a responsive React frontend with a serverless AWS backend for destination discovery, personalized recommendations, and itinerary planning.
+
+### AWS Services
+
+| Technology | Purpose |
+|---|---|
+| **AWS SAM** | Infrastructure as Code for defining, building, validating, and deploying serverless AWS resources. |
+| **Amazon API Gateway** | Exposes HTTPS endpoints for frontend requests. |
+| **AWS Lambda** | Handles recommendation requests, filtering, itinerary logic, and budget calculations. |
+| **Amazon DynamoDB** | Stores destination listings, local experiences, and community-provider records. |
+| **Amazon CloudWatch** | Provides logs and operational monitoring for backend functions. |
+| **AWS Amplify Hosting** | Hosts the React + Vite frontend. |
+
+### Architecture Overview
+
+```text
+             Traveller
+                 |
+                 v
+        React + Vite Frontend
+                 |
+                 v
+          Amazon API Gateway
+                 |
+                 v
+           AWS Lambda
+        /        |        \
+       v         v         v
+ Recommendations Budget   Itinerary
+       \         |         /
+                 v
+          Amazon DynamoDB
+
+       AWS CloudWatch
+       Backend Monitoring
+
+       AWS SAM
+       Infrastructure Definition
+       and Deployment
+
+       AWS Amplify Hosting
+       Frontend Deployment
+```
+
+### Infrastructure as Code with AWS SAM
+
+AWS Serverless Application Model (SAM) enables the team to define serverless infrastructure using a template, making resources easier to configure, reproduce, and deploy.
+
+The SAM template is intended to describe the relevant backend resources, their permissions, environment variables, and configuration.
+
+**Planned deployment workflow:**
+
+1. Define the backend resources in the SAM template.
+2. Validate and build the application.
+3. Deploy the serverless stack to the configured AWS account.
+4. Test API endpoints and DynamoDB operations.
+5. Inspect Lambda logs and errors through CloudWatch.
+6. Configure the frontend to use the deployed API endpoint.
+
+### Deployment and Security
+
+- Keep AWS credentials and secrets out of source control.
+- Use least-privilege IAM permissions.
+- Validate incoming API requests and handle errors gracefully.
+- Configure the frontend with the actual deployed API URL.
+- Check AWS account eligibility, service limits, and pricing before deployment.
+
+**Implementation status:** The architecture above describes the intended cloud design. Individual services should be marked as implemented only after their configuration and functionality have been verified.
 
 ### Prerequisites
 
